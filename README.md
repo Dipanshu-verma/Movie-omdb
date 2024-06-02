@@ -23,6 +23,11 @@ _The homepage displays movie cards in a grid format._
 ![Movie Details Modal](https://github.com/Dipanshu-verma/Movie-omdb/assets/128663583/8dc05a9a-65c2-44d8-b1ed-66522d0607aa)
 _The modal shows detailed information about the selected movie._
 
+### Skeleton
+
+![Skeleton card While Loading](https://github.com/Dipanshu-verma/Movie-omdb/assets/128663583/a55d29e7-52e7-4292-a05b-3b91e01dbb6a)
+_The skeleton will be visible only while the API is loading
+
 ### No Data Found
 
 ![No Data Found](https://github.com/Dipanshu-verma/Movie-omdb/assets/128663583/9187b7e0-0dbe-4038-abbd-ff95bef1cfdf)
@@ -80,12 +85,10 @@ To run this project locally, follow these steps:
 
 - React.js
 - axios (for making API requests)
-- react-modal (for displaying the movie details modal)
+- Tailwind css
 - OMDB API
+- Redux (for state management)
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Notes
 
@@ -93,6 +96,6 @@ Feel free to fork this repository and make any modifications or improvements. If
 
 ---
 
-**Developer**: Rajat (Subhendu)
+**Developer**: Dipanshu Verma
 
-**Contact**: [your.email@example.com](mailto:your.email@example.com)
+**Contact**: [vermadipanshu444@gmail.com](mailto:vermadipanshu444@gmail.com)
