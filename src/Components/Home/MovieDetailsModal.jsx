@@ -21,7 +21,7 @@ const MovieDetailsModal = () => {
   if (!selectedMovie) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 px-2">
       <div className="bg-white rounded-lg p-6 max-w-lg w-full relative text-black shadow-lg  h-[330px]">
         <button
           className="absolute top-2 right-2 text-gray-800 hover:text-gray-900"
