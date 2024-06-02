@@ -6,10 +6,10 @@ export const fetchMoviesFailure = (error) => ({ type: 'FETCH_MOVIES_FAILURE', pa
 export const selectMovie = (movie) => ({ type: 'SELECT_MOVIE', payload: movie });
 
 const apikey = process.env.REACT_APP_OMDB_API_KEY
-console.log(apikey)
+ 
 export const fetchMovies = (query) => (dispatch) => {
     dispatch(fetchMoviesRequest());
-    axios.get(`http://www.omdbapi.com/?apikey=${apikey}&s=${query}`)
+    axios.get(`http://www.omdbapi.com/?apikey=3352a333&s=${query}`)
       .then(response => {
         const movies = response.data.Search;
         dispatch(fetchMoviesSuccess(movies));
@@ -22,7 +22,7 @@ export const fetchMovies = (query) => (dispatch) => {
   
 export const singleMovieDetail = (id) => (dispatch) => {
 
-    axios.get(`http://www.omdbapi.com/?i=${id}&apikey=${apikey}`)
+    axios.get(`http://www.omdbapi.com/?i=${id}&apikey=3352a333`)
       .then(response => {
         dispatch(selectMovie(response.data));
       })
